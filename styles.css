@@ -10,8 +10,8 @@ body, html {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
   grid-template-rows: 1fr 1fr;   /* Two equal-height rows */
-  width: 90vw; /* Full width of viewport */
-  height: 90vh; /* Full height of viewport */
+  width: 98vw; /* Full width of viewport */
+  height: 100vh; /* Full height of viewport */
   gap: 0;        /* No spacing between grid items */
 }
 
@@ -24,5 +24,5 @@ body, html {
   font-weight: bold;
   color: white;
   background-color: #333;
-  border: 1px solid #000; /* Optional border for visual clarity */
+  border: 5px solid #ff0000; /* Optional border for visual clarity */
 }
