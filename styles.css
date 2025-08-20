@@ -1,0 +1,28 @@
+/* Reset some default browser styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Grid container setup */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  grid-template-rows: 1fr 1fr;   /* Two equal-height rows */
+  width: 100vw; /* Full width of viewport */
+  height: 100vh; /* Full height of viewport */
+  gap: 0;        /* No spacing between grid items */
+}
+
+/* Grid item styling */
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #333;
+  border: 1px solid #000; /* Optional border for visual clarity */
+}
