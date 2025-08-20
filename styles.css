@@ -11,7 +11,7 @@ body, html {
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
   grid-template-rows: 1fr 1fr;   /* Two equal-height rows */
   width: 90vw; /* Full width of viewport */
-  height: 100vh; /* Full height of viewport */
+  height: 90vh; /* Full height of viewport */
   gap: 0;        /* No spacing between grid items */
 }
 
